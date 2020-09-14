@@ -1,2 +1,0 @@
-# apollo-cors
-Begin app
