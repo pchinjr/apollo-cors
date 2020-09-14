@@ -43,7 +43,7 @@
     <script type=module>
       ;(async function() {
       let query = `{hello}`
-      let result = await fetch('/graphql', {
+      let result = await fetch('https://dimsum-hi7-staging.begin.app/graphql', {
         method: 'post',
         body: JSON.stringify({query}),
         headers: {
