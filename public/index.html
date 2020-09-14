@@ -49,6 +49,7 @@
         headers: {
           'X-Requested-With': 'XMLHttpRequest',
           'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin':'*',
         }
       })
       let json = await result.json()
